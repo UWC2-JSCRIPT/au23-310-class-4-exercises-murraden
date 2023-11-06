@@ -52,7 +52,7 @@ const cards = [
   { val: 10, displayVal: 'King', suit: 'spades' },
   { val: 11, displayVal: 'Ace', suit: 'spades' }
 ];
-
+//
 /**
  * Logs every property of every card to the console
  *

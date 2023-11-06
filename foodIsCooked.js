@@ -20,7 +20,7 @@ const foodIsCooked = function(kind, internalTemp, doneness) {
   }
 
 }
-
+// 
 
 //
 // Test function

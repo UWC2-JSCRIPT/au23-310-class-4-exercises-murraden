@@ -15,7 +15,7 @@ const cards = [
 ];
 
 
-
+//
 /**
  * Takes an array of cards and returns a string of the card display
  * values where the value is equal to 10

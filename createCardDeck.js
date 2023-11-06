@@ -31,7 +31,7 @@ const getDeck = () => {
   return deck;
 }
 
-
+//
 // CHECKS
 const deck = getDeck()
 console.log(`Deck length equals 52? ${deck.length === 52}`)

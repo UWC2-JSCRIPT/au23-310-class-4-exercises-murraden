@@ -98,7 +98,7 @@ const testCardsArray = [
   
   console.log(`${player.name} has : ${calcPoints()}`)
 
-
+//
 // /**
 //  * Determines whether the dealer should draw another card.
 //  * 
