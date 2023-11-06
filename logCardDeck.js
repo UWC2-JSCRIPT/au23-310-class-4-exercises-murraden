@@ -58,4 +58,13 @@ const cards = [
  *
  * @param {array} deck A deck of cards
  */
-const logCardDeck = deck => {};
+const logCardDeck = deck => {
+  for (let index = 0; index < cards.length; index++) {
+    const card = cards[index];
+    for (prop in card) {
+      console.log(`${prop}: ${card[prop]} `)
+    } 
+  }
+};
+
+console.log(logCardDeck(cards))
