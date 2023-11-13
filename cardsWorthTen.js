@@ -14,6 +14,8 @@ const cards = [
   { val: 11, displayVal: "Ace", suit: "hearts" }
 ];
 
+
+//
 /**
  * Takes an array of cards and returns a string of the card display
  * values where the value is equal to 10
@@ -21,7 +23,12 @@ const cards = [
  * @param {array} cards
  * @return {string} displayVal
  */
-const cardsWorthTen = cards => {};
+const cardsWorthTen = (cards) => {
+  const filterCardsWorthTen = cards.filter(card => card.val === 10)
+  const displayValues = filterCardsWorthTen.map(card => card.displayVal)
+  console.log(displayValues.join(', '))
+};
 
 console.log(cardsWorthTen(cards));
 // should return/log "10, Jack, Queen, King"
+
